@@ -75,9 +75,9 @@ let resumeData=[
 // -----------------------------------
 // 2.For the given JSON iterate over all for loops (for, for in, for of)
 
-for(let i=0;i<resumeData.length;i){
-console.log(resumeData[i].email);
-}
+// for(let i=0;i<resumeData.length;i){
+// console.log(resumeData[i].email);
+// }
 
 // ----------------
 // for (let key in resumeData){
