@@ -1,7 +1,7 @@
 // 2.Create your own data in JOSON format.
 
 let resumeData=[
-    {
+    [{
         "name":"Micheal George",
         "gender":"Male",
         "age":"21",
@@ -23,8 +23,8 @@ let resumeData=[
         },
         "certification":"Mern Stack at Guvi",
         "github":"https://github.com/MichealGeorgeJ"
-    },
-    {
+    }],
+    [{
         "name":"Johnson",
         "gender":"Male",
         "age":"17",
@@ -46,8 +46,8 @@ let resumeData=[
         },
         "certification":"nil",
         "github":"Nil"
-    },
-    {
+    }],
+    [{
         "name":"Viyagulasharmi",
         "gender":"Female",
         "age":"19",
@@ -69,21 +69,21 @@ let resumeData=[
         },
         "certification":"Nil",
         "github":"Nil"
-    }
+    }]
 ];
 
 // -----------------------------------
 // 2.For the given JSON iterate over all for loops (for, for in, for of)
+JSON.stringify(resumeData);
+for(let i=0;i<resumeData.length;i++){
+ console.log(resumeData[i]);
+ }
 
-// for(let i=0;i<resumeData.length;i){
-// console.log(resumeData[i].email);
-// }
 
-// ----------------
-// for (let key in resumeData){
-//     console.log(resumeData[key].email);
-// }
-// for (let val of resumeData){
-//     console.log(val.name,val.github)
-// }
-console.log(resumeData[1].email);
+for (let key in resumeData){
+    console.log(resumeData[key]);
+}
+for (let val of resumeData){
+    console.log(val)
+}
+console.log(resumeData[1]);
